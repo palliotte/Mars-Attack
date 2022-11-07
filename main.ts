@@ -35,7 +35,7 @@ basic.forever(function on_forever() {
     }
     if (ennemie.isTouchingEdge()) {
         game.gameOver()
+        ennemie.delete()
     }
     
-    ennemie.delete()
 })

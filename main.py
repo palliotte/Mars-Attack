@@ -35,6 +35,6 @@ def on_forever():
         basic.pause(800)
     if ennemie.is_touching_edge():
         game.game_over()
-    ennemie.delete()
+        ennemie.delete()
 basic.forever(on_forever)
 
